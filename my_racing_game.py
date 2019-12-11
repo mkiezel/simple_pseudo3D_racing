@@ -25,8 +25,8 @@ y = 375
 
 # win = background.convert()
 # other items
-tree1 = pygame.image.load('tree1.png')
-tree2 = pygame.image.load('tree2.png')
+tree1 = pygame.image.load('images/tree1.png')
+tree2 = pygame.image.load('images/tree2.png')
 tre = [tree1, tree2, tree1, tree2, tree1, tree2]
 
 
@@ -37,12 +37,12 @@ def losujdrzewo(x):
         tre[x] = tree2
 
 
-cloud = pygame.image.load('cloud.png')
+cloud = pygame.image.load('images/cloud.png')
 cy = 0
 # loading car
-car = pygame.image.load('player_car.png').convert_alpha()
-car_l = pygame.image.load('player_car_l.png')
-car_r = pygame.image.load('player_car_r.png')
+car = pygame.image.load('images/player_car.png').convert_alpha()
+car_l = pygame.image.load('images/player_car_l.png')
+car_r = pygame.image.load('images/player_car_r.png')
 
 car = pygame.transform.scale(car, (160, 82))
 car_l = pygame.transform.scale(car_l, (160, 82))
